@@ -1,0 +1,109 @@
+h1 {
+	padding: 1em 0;
+	text-align: center;
+}
+
+.c-form {
+	background: #58c03c;
+	margin: 0 auto;
+	padding: 30px;
+	width: 310px;
+	color: #fff;
+	font-family: 'Segoe UI Light', 'Segoe UI', 'Open sans', Arial, Sans;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+.c-form h2 {
+	font-size: 3em;
+	line-height: 1em;
+	margin: 0 0 0.5em;
+}
+
+.c-form label {
+	display: block;
+	margin: 0 0 5px;
+	cursor: pointer;
+}
+
+.c-form select,.c-form textarea,.c-form input[type="text"],.c-form input[type="password"],.c-form input[type="datetime"],.c-form input[type="datetime-local"],.c-form input[type="date"],.c-form input[type="month"],.c-form input[type="time"],.c-form input[type="week"],.c-form input[type="number"],.c-form input[type="email"],.c-form input[type="url"],.c-form input[type="search"],.c-form input[type="tel"],.c-form input[type="color"],.c-form .uneditable-input {
+	font-size: 14px;
+	border: 0;
+	background: #fff;
+	margin: 0 0 20px;
+	padding: 8px 10px;
+	display: block;
+	width: 290px;
+}
+
+.c-form select:focus,.c-form textarea:focus,.c-form input[type="text"]:focus,.c-form input[type="password"]:focus,.c-form input[type="datetime"]:focus,.c-form input[type="datetime-local"]:focus,.c-form input[type="date"]:focus,.c-form input[type="month"]:focus,.c-form input[type="time"]:focus,.c-form input[type="week"]:focus,.c-form input[type="number"]:focus,.c-form input[type="email"]:focus,.c-form input[type="url"]:focus,.c-form input[type="search"]:focus,.c-form input[type="tel"]:focus,.c-form input[type="color"]:focus,.c-form .uneditable-input:focus {
+	outline: none;
+	color: #000;
+}
+
+.c-form select:-moz-placeholder,.c-form textarea:-moz-placeholder,.c-form input[type="text"]:-moz-placeholder,.c-form input[type="password"]:-moz-placeholder,.c-form input[type="datetime"]:-moz-placeholder,.c-form input[type="datetime-local"]:-moz-placeholder,.c-form input[type="date"]:-moz-placeholder,.c-form input[type="month"]:-moz-placeholder,.c-form input[type="time"]:-moz-placeholder,.c-form input[type="week"]:-moz-placeholder,.c-form input[type="number"]:-moz-placeholder,.c-form input[type="email"]:-moz-placeholder,.c-form input[type="url"]:-moz-placeholder,.c-form input[type="search"]:-moz-placeholder,.c-form input[type="tel"]:-moz-placeholder,.c-form input[type="color"]:-moz-placeholder,.c-form .uneditable-input:-moz-placeholder,.c-form select:-ms-input-placeholder,.c-form textarea:-ms-input-placeholder,.c-form input[type="text"]:-ms-input-placeholder,.c-form input[type="password"]:-ms-input-placeholder,.c-form input[type="datetime"]:-ms-input-placeholder,.c-form input[type="datetime-local"]:-ms-input-placeholder,.c-form input[type="date"]:-ms-input-placeholder,.c-form input[type="month"]:-ms-input-placeholder,.c-form input[type="time"]:-ms-input-placeholder,.c-form input[type="week"]:-ms-input-placeholder,.c-form input[type="number"]:-ms-input-placeholder,.c-form input[type="email"]:-ms-input-placeholder,.c-form input[type="url"]:-ms-input-placeholder,.c-form input[type="search"]:-ms-input-placeholder,.c-form input[type="tel"]:-ms-input-placeholder,.c-form input[type="color"]:-ms-input-placeholder,.c-form .uneditable-input:-ms-input-placeholder,.c-form select::-webkit-input-placeholder,.c-form textarea::-webkit-input-placeholder,.c-form input[type="text"]::-webkit-input-placeholder,.c-form input[type="password"]::-webkit-input-placeholder,.c-form input[type="datetime"]::-webkit-input-placeholder,.c-form input[type="datetime-local"]::-webkit-input-placeholder,.c-form input[type="date"]::-webkit-input-placeholder,.c-form input[type="month"]::-webkit-input-placeholder,.c-form input[type="time"]::-webkit-input-placeholder,.c-form input[type="week"]::-webkit-input-placeholder,.c-form input[type="number"]::-webkit-input-placeholder,.c-form input[type="email"]::-webkit-input-placeholder,.c-form input[type="url"]::-webkit-input-placeholder,.c-form input[type="search"]::-webkit-input-placeholder,.c-form input[type="tel"]::-webkit-input-placeholder,.c-form input[type="color"]::-webkit-input-placeholder,.c-form .uneditable-input::-webkit-input-placeholder {
+	color: #91d37f;
+}
+
+.c-form input[type="checkbox"] {
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	-moz-appearance: none;
+	background: none;
+	border: 1px solid #fff;
+	outline: none;
+	width: 20px;
+	height: 20px;
+	padding: 0;
+	margin: 0 10px 0 0;
+	border-radius: 5px;
+	vertical-align: middle;
+	display: inline-block;
+	position: relative;
+}
+
+.c-form input[type="checkbox"]:checked:after {
+	display: block;
+	content: '';
+	width: 15px;
+	height: 7px;
+	border-left: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	position: absolute;
+	left: 3px;
+	top: 0px;
+}
+
+.c-form button[type="button"],.c-form input[type="button"],.c-form button[type="reset"],.c-form input[type="reset"],.c-form button[type="submit"],.c-form input[type="submit"] {
+	border: 0;
+	background: #fff;
+	color: #58c03c;
+	padding: 5px 20px;
+	margin-right: 10px;
+	min-width: 145px;
+}
+
+.c-form button[type="reset"],.c-form input[type="reset"] {
+	background: url('../images/x.png') #ffffff 10px center no-repeat;
+	padding-left: 44px;
+	margin-right: 0;
+}
+
+.c-form button[type="submit"],.c-form input[type="submit"] {
+	background: url('../images/send.png') #ffffff 10px center no-repeat;
+	padding-left: 44px;
+}
+
+.c-form button:hover,.c-form input:hover,.c-form button:focus,.c-form input:focus,.c-form button:active,.c-form input:active {
+	color: #234b18;
+}
+
+.c-form-controls {
+	margin: 3em 0 0;
+}

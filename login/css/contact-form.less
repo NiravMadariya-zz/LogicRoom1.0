@@ -1,0 +1,137 @@
+//metro contact form
+
+@green:     #58c03c;
+
+
+h1 {
+    padding:1em 0;
+    text-align:center;
+}
+
+.c-form {
+    background:@green;
+    margin:0 auto;
+    padding:30px;
+    width:310px;
+    color:#fff;
+    font-family:'Segoe UI Light', 'Segoe UI', 'Open sans', Arial, Sans;
+    font-size:16px;
+    line-height:1.5em;
+    
+    h2 {
+        font-size:3em;
+        line-height:1em;
+        margin:0 0 0.5em;
+    }
+    
+    label {
+        display:block;
+        margin:0 0 5px;
+        cursor:pointer;
+    }
+
+    select,
+    textarea,
+    input[type="text"],
+    input[type="password"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="date"],
+    input[type="month"],
+    input[type="time"],
+    input[type="week"],
+    input[type="number"],
+    input[type="email"],
+    input[type="url"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="color"],
+    .uneditable-input {
+        font-size:14px;
+        border:0;
+        background:#fff;
+        margin:0 0 20px;
+        padding:8px 10px;
+        display:block;
+        width:290px;
+        
+        &:focus {
+            outline:none;
+            color:#000;
+        }
+        
+        &:-moz-placeholder,
+        &:-ms-input-placeholder,
+        &::-webkit-input-placeholder{
+            color:#91d37f;
+        }
+
+    }
+    
+    input[type="checkbox"] {
+        -webkit-appearance:none;
+        -ms-appearance:none;
+        -moz-appearance:none;
+        background:none;
+        border:1px solid #fff;
+        outline:none;
+        width:20px;
+        height:20px;
+        padding:0;
+        margin:0 10px 0 0;
+        border-radius:5px;
+        vertical-align:middle;
+        display:inline-block;
+        position:relative;
+        
+
+        
+        &:checked:after {
+            display:block;
+            content: '';
+            width:15px;
+            height:7px;
+            border-left:3px solid #fff;
+            border-bottom:3px solid #fff;
+            -webkit-transform:rotate(-45deg);
+            position:absolute;
+            left:3px;
+            top:0px;
+        }
+    }
+    
+    button,
+    input {
+        &[type="button"],
+        &[type="reset"],
+        &[type="submit"] {
+            border:0;
+            background:#fff;
+            color:@green;
+            padding:5px 20px;
+            margin-right:10px;
+            min-width:145px;
+        }
+        
+        &[type="reset"] {
+            background:url('../images/x.png') white 10px center no-repeat;
+            padding-left:44px;
+            margin-right:0;
+        }
+        
+        &[type="submit"] {
+            background:url('../images/send.png') white 10px center no-repeat;
+            padding-left:44px;
+        }
+        
+        &:hover,
+        &:focus,
+        &:active {
+            color:darken(@green, 30%);
+        }
+    }
+    
+    &-controls {
+        margin:3em 0 0;
+    }
+}
