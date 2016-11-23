@@ -2,11 +2,15 @@
   <meta charset="utf-8">
   <meta name="keywords" content="" />
   <meta name="description" content="" />
-  <meta name="viewport" content="width=device-width">        
+  <meta name="viewport" content="width=device-width">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 <?
 include("csslinkFiles.php");
 ?>
 <style>
+	.body{
+		font-family: 'Poppins', sans-serif;
+	}
   .showbox {
     float: right;
     margin: -15em -4em;
