@@ -25,7 +25,7 @@ include("includeFile.php");
 		<form action="create.php" method="POST">
 <h4>Create a new Project Here. </h4>
 
-Name of Project : <input type=text name="newProj" placeholder="Type Project Name Here..."/>&nbsp;&nbsp;&nbsp;&nbsp;<input type=submit value="Create"/>
+Name of Project : <input type=text name="newProj" placeholder="Type Project Name Here..."/>&nbsp;&nbsp;&nbsp;&nbsp;<input type=submit value="Create" style="border: 0px solid #ccc;height: 40px;width: 80px;background-color: #3f729b;color: white;box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5),0 2px 10px 0 rgba(0,0,0,0.12)!important;"/>
 <?if(isset($_SESSION['success'])){if($_SESSION['success']=="yes"){echo "Created Successfully...";}else{echo "File Already Exists...";}}
 	unset($_SESSION['success']);	?>
 <br /><br />
