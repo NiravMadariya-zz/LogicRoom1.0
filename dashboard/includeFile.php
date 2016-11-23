@@ -77,32 +77,32 @@ include_once("../includeme.php");
           </li>
          <?
 		 if(isset($_SESSION['page']) & $_SESSION['page']=="Dashboard"){?>
-			<li class="active" style="color:#fff !important;">
+			<li class="active"><a href="./" style="color:#fff !important;">
 			<?	}	else{?>
-			<li>
+			<li><a href="./">
 			<? }?>
-		 <a href="./"><i class="fa fa-home"></i>Dashboard</a></li>
+		 <i class="fa fa-home"></i>Dashboard</a></li>
 		  <?
 			if(isset($_SESSION['page']) & $_SESSION['page']=="Projects"){?>
-					<li class="active" style="color:#fff !important;">
+					<li class="active" style="color:#fff !important;"><a href="projects.php" style="color:#fff !important;">
 			<?	}	else{?>
-			<li>
+			<li><a href="projects.php">
 			<? }?>
-		 <a href="projects.php"><i class="fa fa-database"></i> Projects Settings </a></li>
+		 <i class="fa fa-database"></i> Projects Settings </a></li>
 		  <?
 			if(isset($_SESSION['page']) & $_SESSION['page']=="Profile"){?>
-					<li class="active" style="color:#fff !important;">
+					<li class="active" style="color:#fff !important;"><a href="./profile.php" style="color:#fff !important;">
 			<?	}	else{?>
-			<li>
+			<li><a href="./profile.php">
 			<? }?>
-		  <a href="./profile.php"><i class="fa fa-cubes"></i>&nbsp;Profile</a></li>
+		  <i class="fa fa-cubes"></i>&nbsp;Profile</a></li>
           <?
 			if(isset($_SESSION['page']) & $_SESSION['page']=="Settings"){?>
-					<li class="active" style="color:#fff !important;">
+					<li class="active" style="color:#fff !important;"><a href="./settings.php" style="color:#fff !important;">
 			<?	}	else{?>
-			<li>
+			<li><a href="./settings.php">
 			<? }?>
-		  <a href="./settings.php"><i class="fa fa-cog"></i>Settings</a></li>
+		  <i class="fa fa-cog"></i>Settings</a></li>
           <li><a href="javascript:;" data-toggle="modal" data-target="#confirmModal"><i class="fa fa-sign-out"></i>Sign Out</a></li>
         </ul>
 		</div>
