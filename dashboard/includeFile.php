@@ -8,8 +8,13 @@
 include("csslinkFiles.php");
 ?>
 <style>
-	.body{
+	body{
 		font-family: 'Poppins', sans-serif !important;
+	}
+	.navbar-inverse{
+		background-color: #3f729b; */
+    		border-color: #3f729b;
+		box-shadow:0 2px 4px 0 rgba(0,0,0,0.15),0 2px 10px 0 rgba(0,0,0,0.12)!important;
 	}
   .showbox {
     float: right;
