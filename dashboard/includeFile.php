@@ -9,7 +9,7 @@ include("csslinkFiles.php");
 ?>
 <style>
 	.body{
-		font-family: 'Poppins', sans-serif;
+		font-family: 'Poppins', sans-serif !important;
 	}
   .showbox {
     float: right;
