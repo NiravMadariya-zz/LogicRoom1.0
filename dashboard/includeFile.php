@@ -17,6 +17,9 @@ include("csslinkFiles.php");
 		color:white !important;
 		box-shadow:0 2px 4px 0 rgba(0,0,0,0.15),0 2px 10px 0 rgba(0,0,0,0.12)!important;
 	}
+	.sidebar .sidebar-menu >li.active, .sidebar .sidebar-menu>li>a:hover{
+		background-color: #3f729b !important;
+	}
   .showbox {
     float: right;
     margin: -15em -4em;
