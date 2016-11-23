@@ -68,7 +68,7 @@ include_once("../includeme.php");
 	<a href="../"><div class="showbox slideright" style="position:fixed;right:-3px;top:330px;z-index:10000;"><h4 align="left" style="margin-top:20px;margin-left:20px">Home</h4></div></a>
     <div class="page-wrapper">
       <div class="navbar-collapse collapse sidebar">
-        <ul class="sidebar-menu">
+        <ul class="sidebar-menu" style=''>
           <li>
             <form class="navbar-form" method="POST" action="../search.php">
               <input type="text" class="form-control" name="searchbox" placeholder="Search...">
@@ -77,28 +77,28 @@ include_once("../includeme.php");
           </li>
          <?
 		 if(isset($_SESSION['page']) & $_SESSION['page']=="Dashboard"){?>
-			<li class="active">
+			<li class="active" style="color:#fff !important;">
 			<?	}	else{?>
 			<li>
 			<? }?>
 		 <a href="./"><i class="fa fa-home"></i>Dashboard</a></li>
 		  <?
 			if(isset($_SESSION['page']) & $_SESSION['page']=="Projects"){?>
-					<li class="active">
+					<li class="active" style="color:#fff !important;">
 			<?	}	else{?>
 			<li>
 			<? }?>
 		 <a href="projects.php"><i class="fa fa-database"></i> Projects Settings </a></li>
 		  <?
 			if(isset($_SESSION['page']) & $_SESSION['page']=="Profile"){?>
-					<li class="active">
+					<li class="active" style="color:#fff !important;">
 			<?	}	else{?>
 			<li>
 			<? }?>
 		  <a href="./profile.php"><i class="fa fa-cubes"></i>&nbsp;Profile</a></li>
           <?
 			if(isset($_SESSION['page']) & $_SESSION['page']=="Settings"){?>
-					<li class="active">
+					<li class="active" style="color:#fff !important;">
 			<?	}	else{?>
 			<li>
 			<? }?>
