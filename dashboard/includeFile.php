@@ -46,7 +46,7 @@ include("csslinkFiles.php");
 <body>
   <div class="navbar navbar-inverse" role="navigation">
       <div class="navbar-header">
-        <div class="logo"><h1>
+        <div class="logo"><h1 style="color:#fff !important;">
 		<? 
 include_once("../includeme.php");
 	$preresult=mysql_query("select * from client_mast where username='".$_SESSION['username']."'");
