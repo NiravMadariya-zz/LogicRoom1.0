@@ -14,7 +14,7 @@ include("csslinkFiles.php");
 	.navbar-inverse{
 		background-color: #3f729b !important;
     		border-color: #3f729b !important;
-		color:white !important;
+		color: #fff !important;
 		box-shadow:0 2px 4px 0 rgba(0,0,0,0.15),0 2px 10px 0 rgba(0,0,0,0.12)!important;
 	}
 	.sidebar .sidebar-menu >li.active, .sidebar .sidebar-menu>li>a:hover{
