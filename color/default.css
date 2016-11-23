@@ -3,7 +3,8 @@
 	color: #ffffff;
 }
 .top-nav-collapse {
-	background: #08c31a;
+	background: #3f729b;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15),0 2px 10px 0 rgba(0,0,0,0.12)!important;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
