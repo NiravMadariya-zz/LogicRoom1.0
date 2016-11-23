@@ -1,5 +1,5 @@
 /* ==== Google font ==== */
-@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
+@import url('http://fonts.googleapis.com/css?family=Poppins:300,700);
 
 .pretty .plS{
 	display: block;
@@ -54,7 +54,7 @@ h5,
 h6 {
     margin: 0 0 30px;
 
-    font-family: Montserrat,sans-serif;
+    font-family: Poppins,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -365,7 +365,7 @@ hr {
 	font-size: 60px;
 	line-height: 60px;
 	font-weight: 700;
-	font-family: Montserrat, sans-serif;
+	font-family: Poppins, sans-serif;
 	background-color: rgba(0, 0, 0, 0);
 	text-decoration: none;
 	text-transform: uppercase;
@@ -604,7 +604,7 @@ Parallax
 .btn {
 	border-radius: 0;
     text-transform: uppercase;
-    font-family: Montserrat,sans-serif;
+    font-family: Poppins,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
