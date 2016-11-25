@@ -5,6 +5,8 @@ h1 {
 }
 
 .c-form {
+	display:flex;
+	justify-content:center;
 	background: #3f729b;
 	margin: 0 auto;
 	padding: 30px;
