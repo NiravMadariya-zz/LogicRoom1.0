@@ -233,7 +233,7 @@ else{
 				<hr class="marginbot-50">
 			</div>
 		</div>
-        <div class="row">
+        <div class="row" style="display: flex;">
             <div class="col-sm-3 col-md-3">
 				<div class="wow fadeInLeft" data-wow-delay="0.2s">
                 <div class="service-box">
