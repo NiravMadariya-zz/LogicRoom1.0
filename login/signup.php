@@ -19,7 +19,7 @@
 <h1>Logic Room</h1>
         
 <form class="c-form" action="signupchk.php" method="get">
-            
+            <div>
 <h2>Sign Up</h2>
             
             
@@ -84,7 +84,7 @@ echo "<br /><img src=test.png /><br />";
 <button type="submit">Sign Up Now</button>
                            
 </div>
-        
+	</div>
 </form>
     
 </section>
