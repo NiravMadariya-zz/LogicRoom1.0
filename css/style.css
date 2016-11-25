@@ -618,10 +618,10 @@ Parallax
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #08C31A;
+    border: 2px solid #3f729b;
     border-radius: 30%;
     font-size: 40px;
-    color: #08C31A;
+    color: #3f729b;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
