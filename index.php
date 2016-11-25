@@ -114,7 +114,7 @@ else{
 
 
 	<div id="c-circle-nav" class="c-circle-nav">
-	  <button id="c-circle-nav__toggle" class="c-circle-nav__toggle">
+	  <button id="c-circle-nav__toggle" class="c-circle-nav__toggle" style="box-shadow:0 2px 4px 0 rgba(0,0,0,.1),0 2px 10px 0 rgba(0,0,0,.5)!important;">
 		<span>Toggle</span>
 	  </button>
 	  <ul class="c-circle-nav__items">
