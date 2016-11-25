@@ -402,7 +402,7 @@ else{
 						</a>
 					</div>
 					</div>
-					<p>&copy;Copyright 2015 - 2016 LogicRoom.in, All rights reserved.</p>
+					<p>&copy;Copyright 2015 - 2016 LogicRoom Inc., All rights reserved.</p>
 				</div>
 			</div>	
 		</div>
