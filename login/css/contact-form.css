@@ -4,7 +4,7 @@ h1 {
 }
 
 .c-form {
-	background: #58c03c;
+	background: #3f729b;
 	margin: 0 auto;
 	padding: 30px;
 	width: 310px;
@@ -83,7 +83,7 @@ h1 {
 .c-form button[type="button"],.c-form input[type="button"],.c-form button[type="reset"],.c-form input[type="reset"],.c-form button[type="submit"],.c-form input[type="submit"] {
 	border: 0;
 	background: #fff;
-	color: #58c03c;
+	color: #3f729b;
 	padding: 5px 20px;
 	margin-right: 10px;
 	min-width: 145px;
