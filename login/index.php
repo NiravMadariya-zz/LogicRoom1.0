@@ -23,7 +23,7 @@ if(isset($_SESSION['username']))
 <h1>Logic Room</h1>
         
 <form class="c-form" action="login_check.php" method="get">
-            
+            <div>
 <h2>Sign In</h2>
             
             
@@ -45,7 +45,7 @@ if(isset($_SESSION['username']))
 
 
 </div>
-        
+	</div>
 </form>
     
 </section>
