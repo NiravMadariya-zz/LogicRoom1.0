@@ -60,11 +60,11 @@ session_start();
       <ul class="nav navbar-nav">
         <li class="active"><a href="#intro">Home</a></li>
 
-		 <li class="dropdown">
+		 
 <?
 if(isset($_SESSION['username'])) {
 ?>
-		 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
 <?
 	echo $_SESSION['username']."<b class='caret'></b></a>"; ?>
 	<ul class="dropdown-menu">
@@ -72,22 +72,24 @@ if(isset($_SESSION['username'])) {
 			<li><a href="dashboard.php">DashBoard</a></li>
 			<li><a href="./dashboard/settings.php">Settings</a></li>
             <li><a href="./login/logoff.php">Sign Out</a></li>
-          </ul>
+			 </ul></li>
 	<?
 }
 else{
 	?>
+	      <li class="active"><a href="./login/">Login</a></li>
+			 <!--
 	<a href="#" class="dropdown-toggle" data-toggle="dropdown">LOGIN<b class='caret'></b></a>
 	<ul class="dropdown-menu">
             <li><a href="./login/">Client</a></li>
-			<li><a href="./admin/">Admin</a></li>
-          </ul>
+			<!--<li><a href="./admin/">Admin</a></li>-->
+          <!--</ul>-->
 <!--	<a href="./login/">Login</a>-->
 	<?
 }
 	?>
           
-        </li>
+        <!--</li>-->
 <!--	<li><a href="login/">Login</a></li>-->
         
 	<li><a href="#service">Service</a></li>
