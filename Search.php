@@ -27,7 +27,7 @@ $_SESSION['page']="Search";
 <body>
   <div class="navbar navbar-inverse" role="navigation" style="background-color: #3f729b !important; color:white !important; border-color:#3f729b !important;">
       <div class="navbar-header">
-        <div class="logo"><?if(isset($_SESSION['name'])){echo "<h1 style="color:white;">Search Project - ".$_SESSION['name']."</h1>";}else{echo "<h1 style="color:white;">Search Project</h1>";}?></div>
+        <div class="logo"><?if(isset($_SESSION['name'])){echo "<h1 style='color:white;'>Search Project - ".$_SESSION['name']."</h1>";}else{echo "<h1 style='color:white;'>Search Project</h1>";}?></div>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
