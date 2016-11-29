@@ -67,8 +67,8 @@ include_once("../includeme.php");
     </div>
 	<a href="../"><div class="showbox slideright" style="position:fixed;right:-3px;top:330px;z-index:10000;"><h4 align="left" style="margin-top:20px;margin-left:20px">Home</h4></div></a>
     <div class="page-wrapper">
-      <div class="navbar-collapse collapse sidebar">
-        <ul class="sidebar-menu" style=''>
+      <div class="navbar-collapse collapse sidebar" style="position: fixed; background-color: #eee; height: 100% !important; margin-top: 0px !important;">
+        <ul class="sidebar-menu" style='margin-top:25px !important;'>
           <li>
             <form class="navbar-form" method="POST" action="../search.php">
               <input type="text" class="form-control" name="searchbox" placeholder="Search...">
