@@ -10,7 +10,6 @@ include("csslinkFiles.php");
 <style>
 	body{
 		font-family: 'Poppins', sans-serif !important;
-		background-color:white !important;
 	}
 	.navbar-inverse{
 		background-color: #3f729b !important;
@@ -44,7 +43,7 @@ include("csslinkFiles.php");
   }
 </style>
 </head>
-<body>
+<body style="background-color:white !important;">
   <div class="navbar navbar-inverse" role="navigation">
       <div class="navbar-header">
         <div class="logo"><h1 style="color:#fff !important;">
