@@ -65,7 +65,7 @@ if($searchres==null && isset($_POST['searchbox']))
 }
 if(isset($_POST['searchbox']))
 {
-	echo "<table border=3 bordercolor=meganta align=center>";
+	echo "<table border=0 bordercolor=meganta align=center>";
 		echo "<tr height=40><td width=200 align=center><font size=4>Project Name<td width=200 align=center><font size=4>Project Owner<td width=200 align=center><font size=4>Download</font></tr><tr height=10>";
 		echo "<tr height=40><td width=200 align=center>$searchres[1]<td width=200 align=center>".$searchres[2];?><td width=200 align=center><a href="./dashboard/download.php?pro=<?echo $searchres[1];?>">Download</a></tr><?
 	echo "</table>";
@@ -74,8 +74,8 @@ else
 {?>
 	<form action="" method="POST">
 		<table border=3 bordercolor=meganta align=center>
-			<tr height=40><td width=200 align=center><font size=4>Search for Project : <td width=200 align=center><input type=text name="searchbox" /></tr>
-			<tr height=40><td width=200 align=center colspan=2><input type=submit value="Search" /></tr>
+			<tr height=40><td width=200 align=center><font size=4>Search for Project : <tr><td width=200 align=center><input type=text name="searchbox" /></tr>
+			<tr height=40><td width=200 align=center colspan=2><input type=submit value="Search" style="background-color: #3f729b !important;    border-color: #3f729b !important;    border: 0px solid #3f729b !important;    height: 30px;    width: 75px;    color: white;    margin-top: 15px;box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15),0 2px 10px 0 rgba(0,0,0,0.12)!important;" /></tr>
 		</table>
 	</form>
 	<?
