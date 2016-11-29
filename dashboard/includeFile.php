@@ -10,6 +10,7 @@ include("csslinkFiles.php");
 <style>
 	body{
 		font-family: 'Poppins', sans-serif !important;
+		background-color:white !important;
 	}
 	.navbar-inverse{
 		background-color: #3f729b !important;
