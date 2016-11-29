@@ -75,7 +75,7 @@ else
 	<form action="" method="POST">
 		<table border=0 bordercolor=meganta align=center>
 			<tr height=40><td width=200 align=center><font size=4>Search for Project : <tr><td width=200 align=center><input type=text name="searchbox" /></tr>
-			<tr height=40><td width=200 align=center colspan=2><input type=submit value="Search" style="background-color: #3f729b !important;    border-color: #3f729b !important;    border: 0px solid #3f729b !important;    height: 30px;    width: 75px;    color: white;    margin-top: 15px;box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15),0 2px 10px 0 rgba(0,0,0,0.12)!important;" /></tr>
+			<tr height=40><td width=200 align=center colspan=2><input type=submit value="Search" style="background-color: #3f729b !important;    border-color: #3f729b !important;    border: 0px solid #3f729b !important;    height: 35px;    width: 85px;    color: white;    margin-top: 15px;box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15),0 2px 10px 0 rgba(0,0,0,0.12)!important;" /></tr>
 		</table>
 	</form>
 	<?
