@@ -37,9 +37,9 @@ $_SESSION['page']="Search";
       </div>   
     </div>
     <div class="page-wrapper">
-      <div class="navbar-collapse collapse sidebar">
+      <div class="navbar-collapse collapse sidebar" style="margin-top:0px !important;">
         <ul class="sidebar-menu" style=" position:fixed; height:100%; background-color:#eee !important;">
-          <li>
+          <li style="margin-top:25px !important;">
             <form class="navbar-form" method="POST">
               <input type="text" class="form-control" name="searchbox" placeholder="Search...">
               <span class="btn btn-default">Go</span>
