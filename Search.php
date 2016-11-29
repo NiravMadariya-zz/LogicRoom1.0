@@ -13,7 +13,7 @@ $_SESSION['page']="Search";
 <head>
   <meta charset="utf-8">
   <title>Search | LogicRoom.in</title>
-  <meta name="keywords" content="logicroom.in" />
+  <meta name="keywords" content="LogicRoom, Inc." />
   <meta name="description" content="" />
   <meta name="viewport" content="width=device-width">        
   <link rel="stylesheet" href="searchReq/css/main.css">
@@ -100,7 +100,7 @@ else
       </div>
       <footer class="footer">
         <div class="copyright">
-          <p>Copyright &copy; 2015 LogicRoom.in</p>
+          <p>Copyright &copy; 2015 - 2016 LogicRoom, Inc.</p>
         </div>
       </footer>
     </div>
