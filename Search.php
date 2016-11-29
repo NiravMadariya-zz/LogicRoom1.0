@@ -25,7 +25,7 @@ $_SESSION['page']="Search";
 	</style>
 </head>
 <body>
-  <div class="navbar navbar-inverse" role="navigation">
+  <div class="navbar navbar-inverse" role="navigation" style="background-color: #3f729b !important;">
       <div class="navbar-header">
         <div class="logo"><?if(isset($_SESSION['name'])){echo "<h1>Search Project - ".$_SESSION['name']."</h1>";}else{echo "<h1>Search Project</h1>";}?></div>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -45,7 +45,7 @@ $_SESSION['page']="Search";
               <span class="btn btn-default">Go</span>
             </form>
           </li>
-          <li class="active"><a href="./search.php"><i class="fa fa-home"></i>Search</a></li>
+          <li style="background-color: #3f729b !important;"><a href="./search.php"><i class="fa fa-search"></i>Search</a></li>
 		  <?if(isset($_SESSION['username'])){?>
           <li><a href="javascript:;" data-toggle="modal" data-target="#confirmModal"><i class="fa fa-sign-out"></i>Sign Out</a></li>
 		  <?}?>
@@ -98,7 +98,7 @@ else
           </div>
         </div>
       </div>
-      <footer class="footer">
+      <footer class="footer" style=" position:absolute; bottom:0pc; width:100%; padding:12px 0 12px 0 !important;">
         <div class="copyright">
           <p>Copyright &copy; 2015 - 2016 LogicRoom, Inc.</p>
         </div>
