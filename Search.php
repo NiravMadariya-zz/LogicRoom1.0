@@ -17,6 +17,12 @@ $_SESSION['page']="Search";
   <meta name="description" content="" />
   <meta name="viewport" content="width=device-width">        
   <link rel="stylesheet" href="searchReq/css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<style>
+		body{
+			font-family: 'Poppins', sans-serif !important;
+		}
+	</style>
 </head>
 <body>
   <div class="navbar navbar-inverse" role="navigation">
