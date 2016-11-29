@@ -45,7 +45,7 @@ $_SESSION['page']="Search";
               <span class="btn btn-default">Go</span>
             </form>
           </li>
-          <li style="background-color: #3f729b !important;"><a href="./search.php"><i class="fa fa-search"></i>Search</a></li>
+          <li style="background-color: #3f729b !important;"><a href="./search.php" style="color:white;"><i class="fa fa-search"></i>Search</a></li>
 		  <?if(isset($_SESSION['username'])){?>
           <li><a href="javascript:;" data-toggle="modal" data-target="#confirmModal"><i class="fa fa-sign-out"></i>Sign Out</a></li>
 		  <?}?>
