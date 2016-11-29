@@ -3,11 +3,12 @@
 @import url('http://fonts.googleapis.com/css?family=Open Sans:300,400,700');
 @import url(font-awesome.min.css);
 @import url(bootstrap.min.css);
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 /* 2. General Styles
 --------------------------------------- */
-* { font-family: 'Open Sans', sans-serif; }
-body { background-color: rgb(235,235,235); }
+* { font-family: 'Poppins','Open Sans', sans-serif; }
+body { background-color: white !important; }
 h1 { font-size: 24px; }
 .btn a {
     color: white;
