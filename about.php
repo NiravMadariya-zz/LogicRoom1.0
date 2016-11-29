@@ -120,7 +120,7 @@
                     <div class="inner">
 						<h5>Nirav Madariya</h5>
  <!--                       <p class="subtitle"></p>-->
-                        <div class="avatar"><img src="img/team/1.jpg" alt="" class="img-responsive img-circle" /></div>
+                        <div class="avatar"><img src="img/team/2.jpg" alt="" class="img-responsive img-circle" /></div>
                     </div>
                 </div>
 				</div>
